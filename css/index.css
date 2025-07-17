@@ -1,0 +1,118 @@
+/* General Body Styles */
+body {
+    font-family: 'Segoe UI', Arial, sans-serif; /* Modern, readable font */
+    margin: 0;
+    padding: 40px 20px; /* More vertical padding */
+    background-color: #f0f2f5; /* Light, soft background */
+    color: #333;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column; /* Arrange content in a column */
+    align-items: center; /* Center horizontally */
+    min-height: 100vh; /* Full viewport height */
+}
+
+/* Main Heading */
+h1 {
+    color: #007bff; /* Vibrant blue for the title */
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 2.8em; /* Larger font size */
+    font-weight: 700; /* Bolder */
+    letter-spacing: -0.02em; /* Slightly tighter letter spacing */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.05); /* Subtle shadow */
+}
+
+/* Container for the content block (like the white box in the image) */
+.content-card {
+    background-color: #ffffff; /* White background for the card */
+    padding: 30px 40px; /* Generous padding */
+    border-radius: 12px; /* More rounded corners */
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15); /* Stronger, softer shadow */
+    max-width: 700px; /* Max width for readability */
+    width: 100%; /* Occupy full available width up to max */
+    box-sizing: border-box;
+}
+
+/* Definition List (dl) within the card */
+dl {
+    margin: 0; /* Remove default dl margin */
+    padding: 0;
+}
+
+/* Definition Term (dt) - The names (e.g., Miguel Angel) */
+dt {
+    font-weight: 600; /* Semi-bold */
+    color: #333; /* Darker color for names */
+    margin-top: 20px; /* Space above each name */
+    margin-bottom: 5px; /* Space below name, before joke */
+    font-size: 1.2em; /* Slightly larger font for names */
+    padding-bottom: 5px;
+    border-bottom: 1px solid #eee; /* Light separator line */
+}
+
+/* Remove border for the first dt */
+dt:first-of-type {
+    margin-top: 0; /* No top margin for the very first item */
+    border-top: none; /* No top border for the very first item */
+}
+
+/* Definition Description (dd) - The jokes */
+dd {
+    margin-left: 0; /* Align jokes with names */
+    margin-bottom: 15px; /* Space after each joke */
+    color: #555; /* Slightly lighter color for jokes */
+    font-size: 1.05em; /* Slightly larger font for jokes */
+}
+
+/* Styling for specific elements that might appear in dd (like emojis) */
+dd img {
+    vertical-align: middle; /* Align emojis nicely with text */
+    margin-left: 5px;
+    height: 1.2em; /* Adjust emoji size if needed */
+    width: 1.2em;
+}
+
+/* Loading/Error Messages (if you choose to implement them with these classes) */
+.loading-message {
+    color: #007bff;
+    font-style: italic;
+    text-align: center;
+    padding: 20px;
+}
+
+.error-message {
+    color: #dc3545;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+    background-color: #ffebeb;
+    border: 1px solid #dc3545;
+    border-radius: 8px;
+}
+
+/* Basic styles for progress bar if still used as fallback */
+progress {
+    width: 100%;
+    height: 10px;
+    -webkit-appearance: none;
+    appearance: none;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+progress::-webkit-progress-bar {
+    background-color: #e0e0e0;
+    border-radius: 5px;
+}
+
+progress::-webkit-progress-value {
+    background-color: #28a745;
+    border-radius: 5px;
+}
+
+progress::-moz-progress-bar {
+    background-color: #28a745;
+    border-radius: 5px;
+}
