@@ -7,24 +7,20 @@ try {
 
  $lista = [
   [
-   "nombre" => "Miguel Angel",
-   "chiste" => "¿Qué hace una abeja en el gimnasio? ¡Zumba! 🐝"
+   "nombre" => "Jair",
+   "chiste" => "¿Qué hace una abeja en el gimnasio? ¡Zumba!"
   ],
   [
-   "nombre" => "Daniela Patricia",
-   "chiste" => "¿Por qué los pájaros no usan Facebook? Porque ya tienen Twitter  🐦"
+   "nombre" => "Orlando",
+   "chiste" => "¿Por qué los pájaros no usan Facebook? Porque ya tienen Twitter."
   ],
   [
-   "nombre" => "Julio Cesar",
-   "chiste" => "¿Cuál es el colmo de un electricista? Que su mujer se llame Luz y sus hijos le sigan la corriente. 💡"
+   "nombre" => "Cadena",
+   "chiste" => "¿Cuál es el colmo de un electricista? Que su mujer se llame Luz y sus hijos le sigan la corriente."
   ],
   [
-   "nombre" => "Ivan Jael",
-   "chiste" => "¿Qué le dice una impresora a otra? ¿Esa hoja es tuya o es impresión mía? 🖨️"
-  ],
-  [
-   "nombre" => "Erick Yael",
-   "chiste" => "¿Qué le dice un semáforo a otro? No me mires mucho que me pongo rojo. 🚦"
+   "nombre" => "Nequiz",
+   "chiste" => "¿Qué le dice una impresora a otra? ¿Esa hoja es tuya o es impresión mía?"
   ]
  ];
 
